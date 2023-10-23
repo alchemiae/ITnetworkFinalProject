@@ -45,7 +45,7 @@ namespace EvidencePojistenych
         public void PridejPojistence()
         {
             Console.WriteLine("Zadejte jméno pojištěného:");
-                string jmeno = Console.ReadLine().Trim();
+                string jmeno = Console.ReadLine().Trim(); // podminit
             Console.WriteLine("Zadejte příjmení pojištěného:");
                 string prijmeni = Console.ReadLine().Trim();
             Console.WriteLine("Zadejte telefonní číslo:");
